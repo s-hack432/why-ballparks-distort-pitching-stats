@@ -1,0 +1,12 @@
+pandas==3.0.6
+numpy==2.5.3
+scipy==1.18.1
+scikit-learn==1.9.1
+statsmodels==0.15.0
+pybaseball==2.2.7
+matplotlib==3.11.2
+pyarrow==25.0.1
+requests==2.34.2
+joblib==1.6.0
+threadpoolctl==3.7.0
+pytest==9.1.1
