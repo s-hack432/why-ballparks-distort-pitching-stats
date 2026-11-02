@@ -1,0 +1,63 @@
+13:11:23 INFO ======================================================================
+13:11:23 INFO Step 7 summary
+13:11:23 INFO 2026 pitchers: 868 (237 starters, 631 relievers by >= 50% starts). Qualifying: 137 starters (400+ BF) and 242 relievers (150+ BF): thresholds unchanged
+13:11:23 INFO Expected distortion among qualifiers (wOBA points): SD 6.3, range -15.1 to +23.6; |distortion| > 95% interval excludes 0 for 148 pitchers
+13:11:23 INFO Home-field term (not removed): SD across qualifiers 0.43 points
+13:11:23 INFO Most hurt by their parks (largest positive distortion = underrated):
+13:11:23 INFO                   name team role  bf  woba  park_neutral_woba  total_pts  total_lo  total_hi  kbb_pts  contact_pts  conv_pts  rank_actual  rank_neutral  rank_gain
+13:11:23 INFO          Tanner Gordon  COL   SP 473 0.406              0.382     23.587    17.925    28.530    5.656        3.054    14.877        136.0         136.0        0.0
+13:11:23 INFO             Zach Agnos  COL   RP 407 0.350              0.327     23.314    18.378    27.901    5.482        3.565    14.267        210.0         176.0       34.0
+13:11:23 INFO             Juan Mejia  COL   RP 323 0.344              0.322     22.449    16.994    26.975    4.924        3.645    13.880        199.0         163.0       36.0
+13:11:23 INFO        Tomoyuki Sugano  COL   SP 656 0.356              0.334     22.382    17.445    26.595    4.725        3.577    14.081        124.0         104.0       20.0
+13:11:23 INFO          Kyle Freeland  COL   SP 613 0.386              0.366     20.529    15.752    24.592    4.524        2.160    13.845        135.0         129.0        6.0
+13:11:23 INFO           Ryan Feltner  COL   SP 548 0.357              0.337     20.123    15.245    24.378    5.029        3.689    11.405        125.0         109.0       16.0
+13:11:23 INFO             Jaden Hill  COL   RP 181 0.317              0.297     20.017    15.312    24.153    4.350        2.843    12.824        148.0          90.0       58.0
+13:11:23 INFO            Luis Medina  ATH   RP 317 0.311              0.291     19.689    14.174    25.173    3.662        0.728    15.299        131.0          76.0       55.0
+13:11:23 INFO     Brennan Bernardino  COL   RP 267 0.299              0.280     18.827    14.420    22.716    4.982        2.986    10.860         94.0          58.0       36.0
+13:11:23 INFO          Mason Barnett  ATH   RP 229 0.386              0.368     18.130    13.731    22.770    3.481        1.003    13.645        236.0         225.0       11.0
+13:11:23 INFO Most helped by their parks (overrated):
+13:11:23 INFO                name team role  bf  woba  park_neutral_woba  total_pts  total_lo  total_hi  kbb_pts  contact_pts  conv_pts  rank_actual  rank_neutral  rank_gain
+13:11:23 INFO       Logan Gilbert  SEA   SP 750 0.299              0.314    -15.098   -19.234   -10.608   -7.800       -0.520    -6.777         44.0          71.0      -27.0
+13:11:23 INFO      Eduard Bazardo  SEA   RP 297 0.348              0.362    -14.109   -17.968    -9.842   -7.263       -0.888    -5.958        204.0         221.0      -17.0
+13:11:23 INFO        George Kirby  SEA   SP 741 0.341              0.354    -13.377   -17.478    -9.151   -6.747       -0.773    -5.857        112.0         126.0      -14.0
+13:11:23 INFO     Emerson Hancock  SEA   SP 566 0.302              0.315    -13.289   -17.143    -9.313   -6.971       -0.665    -5.653         51.0          73.0      -22.0
+13:11:23 INFO      José A. Ferrer  SEA   RP 295 0.333              0.346    -12.752   -16.525    -8.715   -6.445       -0.720    -5.587        187.0         204.0      -17.0
+13:11:23 INFO        Andrés Muñoz  SEA   RP 240 0.296              0.309    -12.623   -16.586    -8.365   -7.036       -0.965    -4.622         87.0         124.0      -37.0
+13:11:23 INFO       Cal Quantrill  TEX   RP 443 0.274              0.287    -12.380   -16.748    -8.855   -3.711       -1.912    -6.757         52.0          67.0      -15.0
+13:11:23 INFO     Cooper Criswell  SEA   RP 172 0.313              0.325    -11.900   -16.074    -7.451   -6.400       -0.719    -4.781        136.0         171.0      -35.0
+13:11:23 INFO      Michael Rucker  SEA   RP 186 0.307              0.319    -11.801   -15.065    -8.165   -5.991       -0.643    -5.167        121.0         158.0      -37.0
+13:11:23 INFO        Jacob deGrom  TEX   SP 668 0.285              0.296    -11.751   -16.130    -8.066   -3.176       -1.732    -6.843         21.0          41.0      -20.0
+13:11:23 INFO SP: rank changes: mean |change| 5.4 places, max up 28, max down 27 (of 137)
+13:11:23 INFO RP: rank changes: mean |change| 8.2 places, max up 58, max down 37 (of 242)
+13:11:23 INFO Case studies:
+13:11:23 INFO     pitcher                                                                 682243                                              665622                                               678906
+13:11:23 INFO     case                                                    Strikeout/walk channel                                  Conversion channel                                      Channels offset
+13:11:23 INFO     name                                                              Bryce Miller                                         Luis Medina                                         Kai-Wei Teng
+13:11:23 INFO     team                                                                       SEA                                                 ATH                                                  HOU
+13:11:23 INFO     role                                                                        SP                                                  RP                                                   RP
+13:11:23 INFO     bf                                                                         485                                                 317                                                  329
+13:11:23 INFO     woba                                                                     0.309                                               0.311                                                0.342
+13:11:23 INFO     xwoba                                                                    0.296                                               0.305                                                0.339
+13:11:23 INFO     park_neutral_woba                                                        0.316                                               0.291                                                0.345
+13:11:23 INFO     total_pts                                                               -7.021                                              19.689                                               -2.629
+13:11:23 INFO     total_lo                                                               -10.212                                              14.174                                               -6.757
+13:11:23 INFO     total_hi                                                                -3.233                                              25.173                                                2.437
+13:11:23 INFO     kbb_pts                                                                 -4.394                                               3.662                                               -5.732
+13:11:23 INFO     k_part_pts                                                              -4.517                                               2.746                                                -5.03
+13:11:23 INFO     bbhbp_part_pts                                                           0.123                                               0.916                                               -0.702
+13:11:23 INFO     contact_pts                                                             -0.395                                               0.728                                               -2.844
+13:11:23 INFO     conv_pts                                                                -2.233                                              15.299                                                5.947
+13:11:23 INFO     home_share                                                               0.435                                               0.622                                                0.561
+13:11:23 INFO     top_parks          T-Mobile Park 43%, Sutter Health Park 8%, loanDepot park 6%  Sutter Health Park 54%, Other 8%, Angel Stadium 4%  Daikin Park 56%, Angel Stadium 8%, Comerica Park 7%
+13:11:23 INFO     rank_actual                                                               63.0                                               131.0                                                197.0
+13:11:23 INFO     rank_neutral                                                              74.0                                                76.0                                                201.0
+13:11:23 INFO     rank_gain                                                                -11.0                                                55.0                                                 -4.0
+13:11:23 INFO Simpson's paradox note: 118 pairs (A lower wOBA in all three park groups, higher overall); 75 starter, 43 reliever. In 89 of them A had the more hitter-friendly park mix.
+13:11:23 INFO Top pairs by smallest within-group gap:
+13:11:23 INFO     role      A      B         A_name        B_name  A_hitter-friendly  A_neutral  A_pitcher-friendly  B_hitter-friendly  B_neutral  B_pitcher-friendly  A_overall  B_overall  min_gap_in_groups  A_park_mix_pts  B_park_mix_pts
+13:11:23 INFO       RP 663687 677865   Hogan Harris Justin Bruihl              0.369      0.223               0.193              0.434      0.342               0.267      0.314      0.308              0.065          15.527          -3.774
+13:11:23 INFO       SP 695611 641743      Gage Jump   Anthony Kay              0.376      0.249               0.270              0.437      0.324               0.331      0.343      0.339              0.061          15.780          -3.885
+13:11:23 INFO       SP 656492 688107 Foster Griffin Robert Gasser              0.314      0.324               0.216              0.372      0.388               0.278      0.311      0.309              0.058           4.732          -2.782
+13:11:23 INFO       RP 663687 592773   Hogan Harris   Ryne Stanek              0.369      0.223               0.193              0.431      0.385               0.249      0.314      0.314              0.056          15.527          -2.726
+13:11:23 INFO       RP 663687 805123   Hogan Harris   AJ Blubaugh              0.369      0.223               0.193              0.416      0.268               0.297      0.314      0.306              0.045          15.527          -2.313
+13:11:23 INFO Saved pitcher_distortion.csv, pitcher_case_studies.csv, pitcher_exposure_2026.csv, simpson_pairs.csv
