@@ -1,0 +1,39 @@
+13:11:35 INFO Savant 3-year factors ending 2026: 29 venues, window 2024-2026
+13:11:35 INFO   parks in our fit but not in Savant's list: ['Oakland Coliseum', 'Steinbrenner Field', 'Sutter Health Park', 'other']
+13:11:35 INFO   parks in Savant's list but not our fit: []
+13:11:36 INFO Savant 1-year factors ending 2026: 30 venues, window 2026
+13:11:36 INFO   parks in our fit but not in Savant's list: ['other']
+13:11:36 INFO   parks in Savant's list but not our fit: []
+13:11:36 INFO ======================================================================
+13:11:36 INFO Step 8 summary
+13:11:36 INFO Correlations between our park estimates and Savant's (index scale):
+13:11:36 INFO        fit savant_window                             comparison  n_parks  pearson  pearson_p  spearman  pearson_without_coors  sd_ours  sd_savant  mean_abs_diff
+13:11:36 INFO     pooled           3yr wOBA on contact (contact + conversion)       29    0.957        0.0     0.891                  0.929    3.505      3.659          0.914
+13:11:36 INFO     pooled           3yr     Home runs (ours: per ball in play)       29    0.969        0.0     0.958                  0.971   11.212     11.477          2.342
+13:11:36 INFO     pooled           3yr                       xwOBA on contact       29    0.772        0.0     0.778                  0.783    1.432      1.488          0.729
+13:11:36 INFO     pooled           3yr                             Strikeouts       29    0.925        0.0     0.894                  0.917    6.052      6.190          1.940
+13:11:36 INFO     pooled           3yr              Walks (ours: walks + HBP)       29    0.737        0.0     0.675                  0.731    3.947      5.052          2.874
+13:11:36 INFO     pooled           3yr                    wOBA (all channels)       29    0.971        0.0     0.925                  0.948    3.686      3.500          0.699
+13:11:36 INFO       2026          2026 wOBA on contact (contact + conversion)       30    0.969        0.0     0.945                  0.964    5.055      5.006          0.927
+13:11:36 INFO       2026          2026     Home runs (ours: per ball in play)       30    0.972        0.0     0.960                  0.973   15.249     15.057          3.049
+13:11:36 INFO       2026          2026                       xwOBA on contact       30    0.896        0.0     0.844                  0.904    2.228      2.334          0.748
+13:11:36 INFO       2026          2026                             Strikeouts       30    0.944        0.0     0.944                  0.944    7.221      7.852          1.950
+13:11:36 INFO       2026          2026              Walks (ours: walks + HBP)       30    0.910        0.0     0.851                  0.899    6.587      8.162          2.764
+13:11:36 INFO       2026          2026                    wOBA (all channels)       30    0.983        0.0     0.935                  0.981    4.783      4.567          0.617
+13:11:36 INFO Largest disagreements, wobacon_idx vs Savant index_wobacon (pooled vs 3-year):
+13:11:36 INFO            venue_short    our_seasons year_range  wobacon_idx  index_wobacon  diff_wobacon_idx    pa    n_pa
+13:11:36 INFO         Dodger Stadium 2024,2025,2026  2024-2026         99.7          102.0              -2.3 17943 58932.0
+13:11:36 INFO            Fenway Park 2024,2025,2026  2024-2026        100.9          103.0              -2.1 18302 56466.0
+13:11:36 INFO         Yankee Stadium 2024,2025,2026  2024-2026         99.3          101.0              -1.7 18041 58815.0
+13:11:36 INFO        Tropicana Field      2024,2026  2024-2026         99.6           98.0               1.6 11970 38630.0
+13:11:36 INFO             Citi Field 2024,2025,2026  2024-2026         96.6           98.0              -1.4 18171 58201.0
+13:11:36 INFO     Citizens Bank Park 2024,2025,2026  2024-2026        103.6          105.0              -1.4 18171 55814.0
+13:11:36 INFO Largest disagreements, hr_idx vs Savant index_hr (pooled vs 3-year):
+13:11:36 INFO               venue_short    our_seasons year_range  hr_idx  index_hr  diff_hr_idx    pa    n_pa
+13:11:36 INFO            Dodger Stadium 2024,2025,2026  2024-2026   117.8     124.0         -6.2 17943 58932.0
+13:11:36 INFO         Progressive Field 2024,2025,2026  2024-2026    96.8      92.0          4.8 17873 56459.0
+13:11:36 INFO               Chase Field 2024,2025,2026  2024-2026    88.3      93.0         -4.7 18284 55779.0
+13:11:36 INFO               Coors Field 2024,2025,2026  2024-2026   103.8     108.0         -4.2 18792 56983.0
+13:11:36 INFO               Daikin Park 2024,2025,2026  2024-2026   116.9     113.0          3.9 18072 55296.0
+13:11:36 INFO     American Family Field 2024,2025,2026  2024-2026   106.8     103.0          3.8 17945 57948.0
+13:11:36 INFO Saved savant_validation.csv and savant_validation_summary.csv
