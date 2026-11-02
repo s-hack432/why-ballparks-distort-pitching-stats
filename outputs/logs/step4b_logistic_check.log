@@ -1,0 +1,10 @@
+13:18:36 INFO k: logistic vs linear park effects r = 0.9994, max |diff| = 0.0013
+13:18:47 INFO bbhbp: logistic vs linear park effects r = 0.9982, max |diff| = 0.0004
+13:18:57 INFO bip: logistic vs linear park effects r = 0.9998, max |diff| = 0.0012
+13:19:09 INFO hr: logistic vs linear park effects r = 0.9968, max |diff| = 0.0015
+13:19:09 INFO Logistic vs linear-probability park effects (probability scale, pooled fit):
+13:19:09 INFO     outcome  league_rate   corr  max_abs_diff  sd_linear  sd_logistic top_park_linear top_park_logistic  converged_iter
+13:19:09 INFO           k       0.2246 0.9994        0.0013     0.0130       0.0132             680               680               6
+13:19:09 INFO       bbhbp       0.0937 0.9982        0.0004     0.0036       0.0037            2602              3313               6
+13:19:09 INFO         bip       0.6818 0.9998        0.0012     0.0132       0.0136              19                19               5
+13:19:09 INFO          hr       0.0448 0.9968        0.0015     0.0053       0.0055              22              2392               7

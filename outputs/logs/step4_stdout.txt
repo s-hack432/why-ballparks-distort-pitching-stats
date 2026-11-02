@@ -1,0 +1,115 @@
+12:45:50 INFO ----------------------------------------------------------------------
+12:45:50 INFO Fit 'pooled': seasons (2024, 2025, 2026), park key 'park'
+12:45:50 INFO   pa sample: 545651 rows, 7288 games; 33 parks, 1310 pitchers, 904 batters
+12:45:50 INFO   bip sample: 372008 rows, 7288 games; 33 parks, 1309 pitchers, 894 batters
+12:48:01 INFO   CV on pa sample (545651 rows, 5 folds x 81 penalty pairs): 130s
+12:49:51 INFO   CV on bip sample (372008 rows, 5 folds x 81 penalty pairs): 110s
+12:49:51 INFO   penalty kbb       lambda_pitcher =    100, lambda_batter =     30
+12:49:51 INFO   penalty woba      lambda_pitcher =    300, lambda_batter =    300
+12:49:51 INFO   penalty xwobacon  lambda_pitcher =   1000, lambda_batter =    100
+12:49:51 INFO   penalty conv      lambda_pitcher =   3000, lambda_batter =   1000
+12:49:51 INFO   penalty hr        lambda_pitcher =   1000, lambda_batter =    100
+12:49:51 INFO   penalty wobacon   lambda_pitcher =   3000, lambda_batter =    100
+12:53:21 INFO   bootstrap: 500 resamples in 201s
+12:53:21 INFO ----------------------------------------------------------------------
+12:53:21 INFO Fit '2026': seasons (2026,), park key 'park_2026'
+12:53:22 INFO   pa sample: 182539 rows, 2429 games; 31 parks, 868 pitchers, 661 batters
+12:53:22 INFO   bip sample: 123929 rows, 2429 games; 31 parks, 868 pitchers, 657 batters
+12:54:51 INFO   CV on pa sample (182539 rows, 5 folds x 81 penalty pairs): 89s
+12:56:23 INFO   CV on bip sample (123929 rows, 5 folds x 81 penalty pairs): 92s
+12:56:23 INFO   penalty kbb       lambda_pitcher =    100, lambda_batter =     30
+12:56:23 INFO   penalty woba      lambda_pitcher =    300, lambda_batter =    300
+12:56:23 INFO   penalty xwobacon  lambda_pitcher =    300, lambda_batter =    100
+12:56:23 INFO   penalty conv      lambda_pitcher =   3000, lambda_batter =   1000
+12:56:23 INFO   penalty hr        lambda_pitcher =   1000, lambda_batter =    100
+12:56:23 INFO   penalty wobacon   lambda_pitcher =   1000, lambda_batter =    300
+12:57:23 INFO   bootstrap: 500 resamples in 59s
+12:57:23 INFO ----------------------------------------------------------------------
+12:57:23 INFO Fit 'pooled_literal': seasons (2024, 2025, 2026), park key 'park'
+12:57:24 INFO   pa sample: 544324 rows, 7288 games; 33 parks, 1310 pitchers, 904 batters
+12:57:24 INFO   bip sample: 370648 rows, 7288 games; 33 parks, 1309 pitchers, 894 batters
+12:57:24 INFO   penalty kbb       lambda_pitcher =    100, lambda_batter =     30
+12:57:24 INFO   penalty woba      lambda_pitcher =    300, lambda_batter =    300
+12:57:24 INFO   penalty xwobacon  lambda_pitcher =   1000, lambda_batter =    100
+12:57:24 INFO   penalty conv      lambda_pitcher =   3000, lambda_batter =   1000
+12:57:24 INFO   penalty hr        lambda_pitcher =   1000, lambda_batter =    100
+12:57:24 INFO   penalty wobacon   lambda_pitcher =   3000, lambda_batter =    100
+12:57:28 INFO ======================================================================
+12:57:28 INFO Step 4 summary
+12:57:28 INFO Penalties (lambda in plate appearances / balls in play) and held-out MSE:
+12:57:28 INFO        fit  outcome penalty_group  lambda_pitcher  lambda_batter  cv_mse  own_best_lambda_pitcher  own_best_lambda_batter  own_best_mse
+12:57:28 INFO     pooled        k           kbb           100.0           30.0 0.16947                       30                      30       0.16946
+12:57:28 INFO     pooled    bbhbp           kbb           100.0           30.0 0.08409                      100                     100       0.08407
+12:57:28 INFO     pooled      bip           kbb           100.0           30.0 0.21081                       30                      30       0.21080
+12:57:28 INFO     pooled     woba          woba           300.0          300.0 0.26211                      300                     300       0.26211
+12:57:28 INFO     pooled xwobacon      xwobacon          1000.0          100.0 0.14057                     1000                     100       0.14057
+12:57:28 INFO     pooled     conv          conv          3000.0         1000.0 0.18121                     3000                    1000       0.18121
+12:57:28 INFO     pooled       hr            hr          1000.0          100.0 0.04245                     1000                     100       0.04245
+12:57:28 INFO     pooled  wobacon       wobacon          3000.0          100.0 0.32932                     3000                     100       0.32932
+12:57:28 INFO       2026        k           kbb           100.0           30.0 0.16860                      100                      30       0.16860
+12:57:28 INFO       2026    bbhbp           kbb           100.0           30.0 0.08779                      100                     100       0.08775
+12:57:28 INFO       2026      bip           kbb           100.0           30.0 0.21166                      100                      30       0.21166
+12:57:28 INFO       2026     woba          woba           300.0          300.0 0.26383                      300                     300       0.26383
+12:57:28 INFO       2026 xwobacon      xwobacon           300.0          100.0 0.14300                      300                     100       0.14300
+12:57:28 INFO       2026     conv          conv          3000.0         1000.0 0.18229                     3000                    1000       0.18229
+12:57:28 INFO       2026       hr            hr          1000.0          100.0 0.04266                     1000                     100       0.04266
+12:57:28 INFO       2026  wobacon       wobacon          1000.0          300.0 0.33178                     1000                     300       0.33178
+12:57:28 INFO Fit 'pooled': 32 parks + other
+12:57:28 INFO   Strikeout rate                     SD across parks 0.0132 | lowest: Coors Field -0.0254, Kauffman Stadium -0.0166 | highest: T-Mobile Park +0.0342, American Family Field +0.0241, Daikin Park +0.0235
+12:57:28 INFO   Walk + HBP rate                    SD across parks 0.0037 | lowest: Oracle Park -0.0093, Globe Life Field -0.0059 | highest: Great American Ball Park +0.0066, Yankee Stadium +0.0065, Sutter Health Park +0.0051
+12:57:28 INFO   Ball-in-play rate (c)              SD across parks 0.0135 | lowest: T-Mobile Park -0.0334, American Family Field -0.0260 | highest: Coors Field +0.0284, Oracle Park +0.0225, Busch Stadium +0.0166
+12:57:28 INFO   xwOBA on contact                   SD across parks 0.0052 | lowest: Oracle Park -0.0105, Comerica Park -0.0089 | highest: Coors Field +0.0095, Kauffman Stadium +0.0087, Camden Yards +0.0065
+12:57:28 INFO   Conversion (wOBAcon - xwOBAcon)    SD across parks 0.0125 | lowest: Globe Life Field -0.0176, Busch Stadium -0.0168 | highest: Coors Field +0.0354, Sutter Health Park +0.0351, Citizens Bank Park +0.0202
+12:57:28 INFO   wOBA (direct model)                SD across parks 0.0121 | lowest: T-Mobile Park -0.0264, Globe Life Field -0.0201 | highest: Coors Field +0.0365, Sutter Health Park +0.0293, Steinbrenner Field +0.0090
+12:57:28 INFO Fit '2026': 30 parks + other
+12:57:28 INFO   Strikeout rate                     SD across parks 0.0161 | lowest: Kauffman Stadium -0.0300, Sutter Health Park -0.0223 | highest: T-Mobile Park +0.0328, Daikin Park +0.0326, Angel Stadium +0.0237
+12:57:28 INFO   Walk + HBP rate                    SD across parks 0.0065 | lowest: Tropicana Field -0.0119, Globe Life Field -0.0117 | highest: Great American Ball Park +0.0185, Sutter Health Park +0.0100, Kauffman Stadium +0.0081
+12:57:28 INFO   Ball-in-play rate (c)              SD across parks 0.0169 | lowest: T-Mobile Park -0.0340, Daikin Park -0.0323 | highest: Chase Field +0.0253, Busch Stadium +0.0248, Kauffman Stadium +0.0219
+12:57:28 INFO   xwOBA on contact                   SD across parks 0.0080 | lowest: Comerica Park -0.0197, Oracle Park -0.0134 | highest: Yankee Stadium +0.0150, Sutter Health Park +0.0147, Nationals Park +0.0109
+12:57:28 INFO   Conversion (wOBAcon - xwOBAcon)    SD across parks 0.0145 | lowest: Busch Stadium -0.0288, Petco Park -0.0258 | highest: Sutter Health Park +0.0369, Coors Field +0.0307, Citizens Bank Park +0.0207
+12:57:28 INFO   wOBA (direct model)                SD across parks 0.0145 | lowest: Angel Stadium -0.0276, T-Mobile Park -0.0195 | highest: Sutter Health Park +0.0424, Coors Field +0.0254, Kauffman Stadium +0.0227
+12:57:28 INFO Home (pitcher's team at home) and platoon (same-handed) coefficients, pooled fit:
+12:57:28 INFO        fit  outcome                 term  estimate      lo      hi     se
+12:57:28 INFO     pooled        k  same_hand:same_hand    0.0154  0.0127  0.0184 0.0014
+12:57:28 INFO     pooled        k home:pitcher_is_home    0.0093  0.0071  0.0116 0.0012
+12:57:28 INFO     pooled    bbhbp  same_hand:same_hand   -0.0144 -0.0163 -0.0129 0.0009
+12:57:28 INFO     pooled    bbhbp home:pitcher_is_home   -0.0044 -0.0058 -0.0028 0.0008
+12:57:28 INFO     pooled      bip  same_hand:same_hand   -0.0009 -0.0039  0.0019 0.0015
+12:57:28 INFO     pooled      bip home:pitcher_is_home   -0.0050 -0.0074 -0.0026 0.0012
+12:57:28 INFO     pooled     woba  same_hand:same_hand   -0.0251 -0.0282 -0.0221 0.0015
+12:57:28 INFO     pooled     woba home:pitcher_is_home   -0.0079 -0.0109 -0.0051 0.0015
+12:57:28 INFO     pooled xwobacon  same_hand:same_hand   -0.0258 -0.0287 -0.0234 0.0014
+12:57:28 INFO     pooled xwobacon home:pitcher_is_home   -0.0019 -0.0044  0.0003 0.0012
+12:57:28 INFO     pooled     conv  same_hand:same_hand    0.0011 -0.0015  0.0038 0.0014
+12:57:28 INFO     pooled     conv home:pitcher_is_home   -0.0025 -0.0055  0.0002 0.0014
+12:57:28 INFO     pooled       hr  same_hand:same_hand   -0.0091 -0.0106 -0.0075 0.0008
+12:57:28 INFO     pooled       hr home:pitcher_is_home   -0.0009 -0.0023  0.0005 0.0007
+12:57:28 INFO     pooled  wobacon  same_hand:same_hand   -0.0239 -0.0282 -0.0200 0.0021
+12:57:28 INFO     pooled  wobacon home:pitcher_is_home   -0.0044 -0.0087 -0.0007 0.0019
+12:57:28 INFO Sensitivity of pooled park effects (parks other than 'other'):
+12:57:28 INFO             variant  outcome   corr  max_abs_change  sd_base  sd_variant
+12:57:28 INFO        lambda_x0.25        k 0.9977          0.0023   0.0130      0.0130
+12:57:28 INFO        lambda_x0.25    bbhbp 0.9875          0.0015   0.0036      0.0037
+12:57:28 INFO        lambda_x0.25      bip 0.9977          0.0020   0.0132      0.0133
+12:57:28 INFO        lambda_x0.25     woba 0.9942          0.0026   0.0119      0.0121
+12:57:28 INFO        lambda_x0.25 xwobacon 0.9818          0.0025   0.0051      0.0052
+12:57:28 INFO        lambda_x0.25     conv 0.9967          0.0024   0.0123      0.0121
+12:57:28 INFO        lambda_x0.25       hr 0.9944          0.0014   0.0053      0.0053
+12:57:28 INFO        lambda_x0.25  wobacon 0.9972          0.0021   0.0141      0.0140
+12:57:28 INFO           lambda_x4        k 0.9913          0.0048   0.0130      0.0131
+12:57:28 INFO           lambda_x4    bbhbp 0.9590          0.0026   0.0036      0.0037
+12:57:28 INFO           lambda_x4      bip 0.9896          0.0042   0.0132      0.0135
+12:57:28 INFO           lambda_x4     woba 0.9910          0.0033   0.0119      0.0118
+12:57:28 INFO           lambda_x4 xwobacon 0.9656          0.0041   0.0051      0.0050
+12:57:28 INFO           lambda_x4     conv 0.9984          0.0014   0.0123      0.0124
+12:57:28 INFO           lambda_x4       hr 0.9934          0.0013   0.0053      0.0053
+12:57:28 INFO           lambda_x4  wobacon 0.9973          0.0025   0.0141      0.0140
+12:57:28 INFO     literal_columns        k 0.9993          0.0024   0.0130      0.0130
+12:57:28 INFO     literal_columns    bbhbp 0.9981          0.0012   0.0036      0.0037
+12:57:28 INFO     literal_columns      bip 0.9985          0.0036   0.0132      0.0133
+12:57:28 INFO     literal_columns     woba 0.9976          0.0019   0.0119      0.0124
+12:57:28 INFO     literal_columns xwobacon 0.9953          0.0025   0.0051      0.0052
+12:57:28 INFO     literal_columns     conv 0.9960          0.0027   0.0123      0.0128
+12:57:28 INFO     literal_columns       hr 0.9995          0.0008   0.0053      0.0053
+12:57:28 INFO     literal_columns  wobacon 0.9960          0.0034   0.0141      0.0147
+12:57:28 INFO Saved park_channel_effects.csv, model_*.csv, park_effects_sensitivity.csv and data/processed/park_effects_*.npz
