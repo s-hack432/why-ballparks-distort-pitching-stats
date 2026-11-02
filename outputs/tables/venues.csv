@@ -1,0 +1,42 @@
+venue_id,games_2024,games_2025,games_2026,neutral_games_2024,neutral_games_2025,neutral_games_2026,pa_2024,pa_2025,pa_2026,venue_name,venue_short,home_team,home_seasons,modeled_pooled,modeled_2026,elevation_ft,latitude,longitude,azimuth_deg,roof_type,turf_type,capacity,fence_leftLine,fence_left,fence_leftCenter,fence_center,fence_rightCenter,fence_right,fence_rightLine,fence_mean_ft
+32,81,81,80,0,0,0,6016,6076,5999,American Family Field,American Family Field,MIL,"2024,2025,2026",True,True,597.0,43.02838,-87.97099,129.0,Retractable,Grass,40100.0,344,,371.0,400,374.0,,345,366.8
+1,81,81,81,0,0,0,6092,6136,6130,Angel Stadium,Angel Stadium,LAA,"2024,2025,2026",True,True,151.0,33.80019044,-117.8823996,43.61,Open,Grass,45517.0,330,347.0,389.0,396,365.0,348.0,330,362.0
+2889,80,81,81,0,0,0,5955,6043,6177,Busch Stadium,Busch Stadium,STL,"2024,2025,2026",True,True,460.0,38.62256667,-90.19286667,62.0,Open,Grass,43435.0,336,,375.0,400,375.0,,335,364.2
+15,81,81,79,0,0,0,6265,6219,5948,Chase Field,Chase Field,AZ,"2024,2025,2026",True,True,1086.0,33.445302,-112.066687,0.0,Retractable,Artificial Turf,48405.0,328,376.0,412.0,407,414.0,376.0,335,379.2
+3289,80,80,81,0,0,0,6022,6097,6155,Citi Field,Citi Field,NYM,"2024,2025,2026",True,True,10.0,40.75753012,-73.84559155,13.0,Open,Grass,41922.0,335,358.0,370.0,408,380.0,370.0,330,364.6
+2681,80,81,81,0,0,0,6006,6087,6169,Citizens Bank Park,Citizens Bank Park,PHI,"2024,2025,2026",True,True,20.0,39.90539086,-75.16716957,9.0,Open,Grass,42901.0,329,369.0,381.0,401,398.0,369.0,330,367.8
+2394,80,81,81,0,0,0,5891,6091,6020,Comerica Park,Comerica Park,DET,"2024,2025,2026",True,True,600.0,42.3391151,-83.048695,150.0,Open,Grass,41083.0,345,,370.0,420,365.0,,330,366.0
+19,79,81,81,0,0,0,6145,6393,6353,Coors Field,Coors Field,COL,"2024,2025,2026",True,True,5190.0,39.756042,-104.994136,4.0,Open,Grass,50480.0,347,390.0,420.0,415,424.0,375.0,350,391.2
+2392,81,81,81,0,0,0,6074,5995,6102,Daikin Park,Daikin Park,HOU,"2024,2025,2026",True,True,45.0,29.756967,-95.355509,343.0,Retractable,Grass,41168.0,315,,362.0,409,373.0,,326,357.0
+3,81,81,80,0,0,0,6200,6195,6027,Fenway Park,Fenway Park,BOS,"2024,2025,2026",True,True,21.0,42.346456,-71.097441,45.0,Open,Grass,37755.0,310,379.0,390.0,420,380.0,,302,360.4
+2523,0,81,0,0,0,0,0,6023,0,George M. Steinbrenner Field,Steinbrenner Field,TB,2025,True,False,34.0,27.97997,-82.50702,60.0,Open,Grass,10387.0,318,,,408,,,314,
+5325,81,81,81,0,0,0,5989,5962,5978,Globe Life Field,Globe Life Field,TEX,"2024,2025,2026",True,True,545.0,32.747299,-97.081818,30.0,Retractable,Artificial Turf,40518.0,329,,372.0,407,374.0,,326,361.6
+2602,81,80,81,0,0,0,6091,5963,6172,Great American Ball Park,Great American Ball Park,CIN,"2024,2025,2026",True,True,535.0,39.097389,-84.506611,122.0,Open,Grass,42319.0,328,,379.0,404,370.0,,325,361.2
+7,81,81,81,0,0,0,6029,5955,6217,Kauffman Stadium,Kauffman Stadium,KC,"2024,2025,2026",True,True,856.0,39.051567,-94.480483,46.0,Open,Grass,38179.0,347,364.0,379.0,410,379.0,364.0,344,371.8
+3309,81,81,81,0,0,0,6063,6154,6290,Nationals Park,Nationals Park,WSH,"2024,2025,2026",True,True,35.0,38.872861,-77.007501,28.0,Open,Grass,41376.0,336,,377.0,402,370.0,,335,364.0
+10,81,0,0,0,0,0,6137,0,0,Oakland Coliseum,Oakland Coliseum,OAK,2024,True,False,10.0,37.751511,-122.200698,55.0,Open,Grass,46847.0,330,367.0,388.0,400,388.0,367.0,330,367.2
+2395,81,81,81,0,0,0,6072,6129,6058,Oracle Park,Oracle Park,SF,"2024,2025,2026",True,True,0.0,37.778383,-122.389448,85.0,Open,Grass,41311.0,339,,399.0,391,415.0,,309,370.6
+2,81,81,81,0,0,0,6132,6093,6067,Oriole Park at Camden Yards,Camden Yards,BAL,"2024,2025,2026",True,True,33.0,39.283787,-76.621689,31.0,Open,Grass,42455.0,333,363.0,376.0,410,373.0,,318,362.0
+31,81,81,81,0,0,0,6171,6034,6281,PNC Park,PNC Park,PIT,"2024,2025,2026",True,True,780.0,40.446904,-80.005753,116.0,Open,Grass,38705.0,325,389.0,410.0,399,375.0,,320,365.8
+2680,80,81,81,0,0,0,5928,5989,6016,Petco Park,Petco Park,SD,"2024,2025,2026",True,True,23.0,32.707861,-117.157278,0.0,Open,Grass,40000.0,336,,386.0,396,391.0,,322,366.2
+5,80,81,81,0,0,0,5894,5958,6145,Progressive Field,Progressive Field,CLE,"2024,2025,2026",True,True,653.0,41.495861,-81.685255,0.0,Open,Grass,34830.0,325,370.0,410.0,405,375.0,,325,368.0
+4,81,81,81,0,0,0,6117,6046,6180,Rate Field,Rate Field,CWS,"2024,2025,2026",True,True,595.0,41.83,-87.634167,127.0,Open,Grass,40126.0,330,,377.0,400,372.0,,335,362.8
+14,81,81,81,0,0,0,6050,6106,6075,Rogers Centre,Rogers Centre,TOR,"2024,2025,2026",True,True,270.0,43.64155,-79.38915,345.0,Retractable,Artificial Turf,39150.0,328,,375.0,404,375.0,,328,362.0
+2529,0,81,75,0,0,0,0,6327,5991,Sutter Health Park,Sutter Health Park,ATH,"2025,2026",True,True,24.0,38.57994,-121.51246,46.0,Open,Grass,13416.0,330,,380.0,403,380.0,,325,363.6
+680,81,81,81,0,0,0,5845,6027,5996,T-Mobile Park,T-Mobile Park,SEA,"2024,2025,2026",True,True,10.0,47.591333,-122.33251,49.0,Retractable,Grass,47378.0,331,,390.0,405,387.0,,327,368.0
+3312,81,81,80,0,0,0,6156,6190,6105,Target Field,Target Field,MIN,"2024,2025,2026",True,True,828.0,44.981829,-93.277891,129.0,Open,Grass,38544.0,339,,377.0,404,367.0,,328,363.0
+12,81,0,82,0,0,1,6036,0,6032,Tropicana Field,Tropicana Field,TB,"2024,2026",True,True,15.0,27.767778,-82.6525,359.0,Dome,Artificial Turf,25025.0,315,370.0,410.0,404,404.0,370.0,322,371.0
+4705,81,81,81,0,0,0,6019,6152,6064,Truist Park,Truist Park,ATL,"2024,2025,2026",True,True,1001.0,33.890672,-84.467641,145.0,Open,Grass,40819.0,335,375.0,385.0,400,375.0,,325,364.0
+22,80,81,81,0,0,0,5962,6130,6005,UNIQLO Field at Dodger Stadium,Dodger Stadium,LAD,"2024,2025,2026",True,True,515.0,34.07368,-118.24053,26.0,Open,Grass,56000.0,330,,385.0,395,385.0,,330,365.0
+17,81,79,81,0,0,0,5920,5862,6270,Wrigley Field,Wrigley Field,CHC,"2024,2025,2026",True,True,595.0,41.948171,-87.655503,37.0,Open,Grass,41298.0,355,,368.0,400,368.0,,353,368.8
+3313,81,81,80,0,0,0,6149,6065,5936,Yankee Stadium,Yankee Stadium,NYY,"2024,2025,2026",True,True,55.0,40.82919482,-73.9264977,75.0,Open,Grass,46537.0,318,,399.0,408,385.0,,314,364.8
+4169,81,81,81,0,0,0,6377,6117,6061,loanDepot park,loanDepot park,MIA,"2024,2025,2026",True,True,10.0,25.77796236,-80.21951795,128.0,Retractable,Artificial Turf,37446.0,344,,386.0,407,392.0,,335,372.8
+6130,0,1,0,0,1,0,0,78,0,Bristol Motor Speedway,Bristol Motor Speedway,,,False,False,,31.5156,-82.5269,,Open,Artificial Turf,,330,378.0,385.0,400,375.0,360.0,330,364.0
+5340,2,0,2,2,0,2,158,0,157,Estadio Alfredo Harp Helu,Estadio Alfredo Harp Helú,,,False,False,,,,,Open,Artificial Turf,21000.0,325,,,400,,,325,
+5445,0,0,1,0,0,1,0,0,79,Field of Dreams,Field of Dreams,,,False,False,,42.498241,-91.056486,,Open,Grass,7521.0,335,,380.0,400,380.0,,335,366.0
+5150,2,0,0,2,0,0,182,0,0,Gocheok Sky Dome,Gocheok Sky Dome,,,False,False,,37.4982,126.867,,Dome,Artificial Turf,16744.0,325,,,400,,,325,
+2735,1,1,1,1,1,1,74,81,80,Journey Bank Ballpark,Journey Bank Ballpark,,,False,False,,41.2419845,-77.0475104,,Open,Grass,2500.0,345,,,405,,,350,
+5355,0,0,6,0,0,6,0,0,514,Las Vegas Ballpark,Las Vegas Ballpark,,,False,False,,36.152607,-115.329888,,Open,Grass,10000.0,340,,380.0,415,380.0,,340,371.0
+5381,2,0,0,2,0,0,159,0,0,London Stadium,London Stadium,,,False,False,,51.50853,-0.12574,,Open,Artificial Turf,55000.0,330,,,392,,,330,
+3949,1,0,0,1,0,0,73,0,0,Rickwood Field,Rickwood Field,,,False,False,,33.5023303,-86.8563555,,Open,Grass,8100.0,321,,399.0,400,392.0,,332,368.8
+2397,0,2,0,0,2,0,0,153,0,Tokyo Dome,Tokyo Dome,,,False,False,,35.7056,139.7519,,Dome,Artificial Turf,55000.0,329,,375.0,400,375.0,,329,361.6

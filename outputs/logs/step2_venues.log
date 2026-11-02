@@ -1,0 +1,32 @@
+17:48:16 INFO Matching Statcast games to the schedule
+17:48:16 INFO load_statcast(2024): excluding 20583 non-regular-season pitch rows by game_type: {'S': 20583}
+17:48:16 INFO   2024: 2429 Statcast games, 0 unmapped, 0 with Statcast home_team != schedule home team
+17:48:17 INFO load_statcast(2025): excluding 29552 non-regular-season pitch rows by game_type: {'S': 29552}
+17:48:17 INFO   2025: 2430 Statcast games, 0 unmapped, 0 with Statcast home_team != schedule home team
+17:48:17 INFO   2026: 2429 Statcast games, 0 unmapped, 0 with Statcast home_team != schedule home team
+17:48:18 INFO ======================================================================
+17:48:18 INFO Step 2 summary: 7288 completed regular-season games at 41 venues
+17:48:18 INFO 2024: 2429 games at 35 venues; 8 neutral-site games
+17:48:18 INFO     Journey Bank Ballpark        1 game(s): NYY @ DET -> park key 'other'
+17:48:18 INFO     Rickwood Field               1 game(s): SF @ STL -> park key 'other'
+17:48:18 INFO     Gocheok Sky Dome             2 game(s): LAD @ SD; SD @ LAD -> park key 'other'
+17:48:18 INFO     Estadio Alfredo Harp Helú    2 game(s): HOU @ COL -> park key 'other'
+17:48:18 INFO     London Stadium               2 game(s): NYM @ PHI; PHI @ NYM -> park key 'other'
+17:48:18 INFO 2025: 2430 games at 33 venues; 4 neutral-site games
+17:48:18 INFO     Tokyo Dome                   2 game(s): LAD @ CHC -> park key 'other'
+17:48:18 INFO     Journey Bank Ballpark        1 game(s): SEA @ NYM -> park key 'other'
+17:48:18 INFO     Bristol Motor Speedway       1 game(s): ATL @ CIN -> park key 'other'
+17:48:18 INFO 2026: 2429 games at 34 venues; 11 neutral-site games
+17:48:18 INFO     Tropicana Field              1 game(s): CHC @ BOS -> park key '12'
+17:48:18 INFO     Journey Bank Ballpark        1 game(s): ATL @ MIL -> park key 'other'
+17:48:18 INFO     Estadio Alfredo Harp Helú    2 game(s): SD @ AZ -> park key 'other'
+17:48:18 INFO     Las Vegas Ballpark           6 game(s): COL @ ATH; MIL @ ATH -> park key 'other'
+17:48:18 INFO     Field of Dreams              1 game(s): PHI @ MIN -> park key 'other'
+17:48:18 INFO Teams whose home park changed during 2024-2026:
+17:48:18 INFO     season               2024                2025                2026
+17:48:18 INFO     team_id                                                          
+17:48:18 INFO     ATH      Oakland Coliseum  Sutter Health Park  Sutter Health Park
+17:48:18 INFO     TB        Tropicana Field  Steinbrenner Field     Tropicana Field
+17:48:18 INFO pooled 2024-2026 fit: 32 modeled venues + 'other'. 'other' holds 22 games and 1788 of 549224 PAs (0.33%): Bristol Motor Speedway, Estadio Alfredo Harp Helú, Field of Dreams, Gocheok Sky Dome, Journey Bank Ballpark, Las Vegas Ballpark, London Stadium, Rickwood Field, Tokyo Dome
+17:48:18 INFO 2026-only fit: 30 modeled venues + 'other'. 'other' holds 10 games and 830 of 183849 PAs (0.45%): Estadio Alfredo Harp Helú, Field of Dreams, Journey Bank Ballpark, Las Vegas Ballpark
+17:48:18 INFO Saved data/processed/games.parquet and outputs/tables/venues.csv
